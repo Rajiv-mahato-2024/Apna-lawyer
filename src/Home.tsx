@@ -54,7 +54,7 @@ function Home() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-gray-600 hover:text-gray-900">Features</a>
               <a href="#pricing" className="text-gray-600 hover:text-gray-900">Pricing</a>
-              <button onClick={() => navigate('/chatDemo')} className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+              <button onClick={() => navigate('/signup')} className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
                 Try Demo
               </button>
             </div>
