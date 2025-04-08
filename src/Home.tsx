@@ -14,7 +14,7 @@ function Home() {
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
 
   // Demo video URL - using a sample YouTube video about legal tech
-  const demoVideoUrl = "https://www.youtube.com/embed/iIjksz3rRnE?autoplay=1";
+  const demoVideoUrl = "/demo_video.mp4"; // Replace with your actual video URL
 
   const openVideoModal = () => {
     setIsVideoModalOpen(true);
