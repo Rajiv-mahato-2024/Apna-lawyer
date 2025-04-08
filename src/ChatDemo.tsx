@@ -1,15 +1,19 @@
 import './App.css';
-import Sidebar from './components/Sidebar';
-import MainContent from './components/SidebarRight';
-import SidebarRight from './components/MainContent';
+import DashboardLayout from './components/DashboardLayout';
+import ChatContainer from './components/ChatContainer';
 
 function ChatDemo() {
   return (
-    <div className="app-container">
-      <Sidebar />
-      <MainContent />
-      <SidebarRight />
-    </div>
+    <DashboardLayout>
+      <div className="dashboard-header">
+        <h1>AI Legal Chat</h1>
+      </div>
+      <div className="dashboard-content">
+        <div className="dashboard-card">
+          <ChatContainer />
+        </div>
+      </div>
+    </DashboardLayout>
   );
 }
 
