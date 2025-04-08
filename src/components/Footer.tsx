@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8">
           <p className="text-center text-gray-400">
-            © 2025 LegalMind AI. All rights reserved.
+            © 2025 Apna Lawyer. All rights reserved.
           </p>
         </div>
       </div>
