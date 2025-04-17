@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import DashboardLayout from '../components/DashboardLayout';
-import { FileUp, X, FileText, AlertTriangle, Eye, Download, Trash2 } from 'lucide-react';
+import { FileUp, FileText, AlertTriangle, Eye, Download, Trash2 } from 'lucide-react';
 
 interface FileItem {
   id: string;
@@ -185,7 +185,7 @@ const DocumentAnalysis: React.FC = () => {
             onDrop={handleDrop}
             onClick={onButtonClick}
           >
-            <div className="file-upload-icon">
+            <div className="file-upload-icon" >
               <FileUp size={40} />
             </div>
             <p className="mb-2 font-medium">Drag and drop your file here</p>

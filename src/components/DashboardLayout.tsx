@@ -62,7 +62,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
               <h3>Pro Plan</h3>
               <p>Unlock all premium features!</p>
               <div className="price-container">
-                <span className="price">₹99</span>
+                <span className="price">₹199</span>
                 <span className="period">/ mo</span>
                 <button className="get-button">Get</button>
               </div>
